@@ -14,7 +14,7 @@ city = "Brisbane"
 scatter_plot = 
 df %>%
   filter(Location == city) %>%
-  ggplot(aes(x = Temp9am, y = Humidity9am, colour = 'red')) + 
+  ggplot(aes(x = Temp9am, y = Humidity9am, colour = 'purple')) + 
   geom_point() +
   ggtitle('Temperature-humidity in Brisbane') +
   theme_minimal() +
